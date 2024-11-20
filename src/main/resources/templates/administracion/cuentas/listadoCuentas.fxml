@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorListarCuentas" prefHeight="585.0" prefWidth="949.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.grisu.tpvspring.controladores.administracion.cuenta.ListadoCuentas">
+   <children>
+      <TableView fx:id="tablaListarCuentas" layoutX="111.0" layoutY="48.0" prefHeight="390.0" prefWidth="768.0">
+        <columns>
+          <TableColumn fx:id="columId" prefWidth="63.0" text="ID" />
+          <TableColumn fx:id="columCuenta" maxWidth="667.0" prefWidth="666.0" text="CUENTA" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="63.0" layoutY="481.0" prefHeight="17.0" prefWidth="849.0" style="-fx-background-color: blue;" text="Haz click sobre la cuenta que deseas editar" textFill="#fcf5f5">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

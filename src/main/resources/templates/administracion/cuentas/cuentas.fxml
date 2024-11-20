@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1000.0" style="-fx-background-color: #F0BA1E;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.grisu.tpvspring.controladores.administracion.cuenta.Cuentas">
+   <children>
+      <Label alignment="CENTER" layoutX="-5.0" layoutY="6.0" prefHeight="54.0" prefWidth="1041.0" text="CUENTAS">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelNuevo" layoutX="163.0" layoutY="89.0" text="Nueva Cuenta">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelListado" layoutX="703.0" layoutY="89.0" text="Listado Cuentas">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+      <StackPane fx:id="stackPaneProductos" layoutX="67.0" layoutY="125.0" maxHeight="650.0" maxWidth="1000.0" minHeight="65.0" minWidth="941.0" prefHeight="467.0" prefWidth="941.0" style="-fx-background-color: #F0BA1E;" />
+   </children>
+</AnchorPane>

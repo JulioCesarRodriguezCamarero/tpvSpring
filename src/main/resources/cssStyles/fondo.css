@@ -1,0 +1,6 @@
+.panel{
+    -fx-background-image: url("../imagenes/escritorio-de-oficina.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}

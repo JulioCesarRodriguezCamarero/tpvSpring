@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorListarProducto" maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.grisu.tpvspring.controladores.administracion.producto.ListadoProductos">
+   <children>
+      <TableView fx:id="tablaListarProducto" prefHeight="357.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="columId" prefWidth="63.0" text="ID" />
+          <TableColumn fx:id="columProducto" prefWidth="291.0" text="PRODUCTO" />
+            <TableColumn fx:id="columPrecio" prefWidth="88.0" text="PRECIO" />
+            <TableColumn fx:id="columImagen" prefWidth="157.0" text="IMAGEN" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="3.0" layoutY="365.0" prefHeight="27.0" prefWidth="594.0" style="-fx-background-color: blue;" text="Haz click sobre el producto que deseas editar" textFill="#fcf5f5">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
